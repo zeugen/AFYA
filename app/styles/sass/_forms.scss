@@ -1,0 +1,33 @@
+@import "colors";
+.loginForm> .form-group{
+  nav{
+    margin-left: 0px;
+    padding-bottom: 1.35em;
+    text-align: left;
+    a{
+      text-align: left;
+      font-weight: 400;
+      margin-right: 10px;
+      text-transform: uppercase;
+      color: #b2b2b2;
+    }
+  }
+
+}
+.loginForm >.form-group>div>label{
+  padding-bottom: 5px;
+  font-size: 0.755em;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+}
+.loginForm >.form-group>div>input{
+  background-color:  rgba(214, 221, 238, 0.5) !important;
+  border-width: 0;
+}
+.loginForm >.form-group>div>button{
+
+  background-color: $blue;
+  border: 0;
+}
